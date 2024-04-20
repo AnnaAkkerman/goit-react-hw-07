@@ -9,13 +9,13 @@ body {
   margin: 0 auto;
   padding: 20px 0;
   width: 375px;
+  background-image: url("./assets/depositphotos_8138619-stock-photo-old-style-phone-over-yellow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #root {
-  border: 3px solid #111;
-  border-radius: 8px;
   padding: 20px;
-  background-color: blanchedalmond;
 }
 
 @media screen and (min-width: 768px) {
