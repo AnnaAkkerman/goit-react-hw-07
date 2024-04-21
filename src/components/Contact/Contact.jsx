@@ -16,7 +16,7 @@ const Contact = ({ id, name, number }) => {
         <p className={css.contactData}>
           <FaUser /> {name}
         </p>
-        <a href="tel:+{number}" className={css.contactData}>
+        <a href={"tel:+" + number} className={css.contactData}>
           <FaPhoneAlt /> {number}
         </a>
       </div>
