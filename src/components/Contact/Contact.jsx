@@ -16,9 +16,9 @@ const Contact = ({ id, name, number }) => {
         <p className={css.contactData}>
           <FaUser /> {name}
         </p>
-        <p className={css.contactData}>
+        <a href="tel:+{number}" className={css.contactData}>
           <FaPhoneAlt /> {number}
-        </p>
+        </a>
       </div>
       <button className={css.deleteBtn} type="button" onClick={handleDelete}>
         Delete
